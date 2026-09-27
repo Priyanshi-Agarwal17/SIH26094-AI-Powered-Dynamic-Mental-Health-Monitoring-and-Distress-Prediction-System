@@ -35,12 +35,29 @@ Victims of atrocities often face intense psychological trauma, PTSD, and acute e
  **Support Authorities & Organizations:** For structured emergency response management.
 
 
-
 ## 💻 Tech Stack & Architecture
-**Platform / Framework:** Base44 / Modern Web Technologies
-* **Intelligence Layer:** AI-driven stress analysis & predictive tracking models
 
-**Security Layer:** Privacy-first data protection protocols
+**Mobile App: Flutter (Android-first, offline-friendly)
+
+**Web & Dashboards: React, TypeScript, Tailwind CSS, Recharts
+
+**Backend:FastAPI (Python) / Firebase / Supabase
+
+**Database: PostgreSQL + encrypted local cache / SQLite
+
+**NLP & Multilingual: IndicBERT / MuRIL / Multilingual BERT
+
+**Speech Processing: Whisper / Vosk + wav2vec2 + librosa
+
+**Physiological Prototype: MediaPipe / OpenCV + pyVHR / rPPG module
+
+**Risk & Distress Model:Rule engine + Random Forest / XGBoost
+
+**Alerts System: Firebase Cloud Messaging / SMS / Email integration
+
+**Explainability: Feature-contribution cards / SHAP-style view
+
+
 
 
 
