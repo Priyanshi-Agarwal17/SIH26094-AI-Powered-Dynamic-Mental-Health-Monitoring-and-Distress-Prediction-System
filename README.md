@@ -1,68 +1,82 @@
-# 🤝 Sahaaya: AI-Powered Mental Health & Distress Prediction System
-
-An intelligent, multilingual, privacy-first AI system designed to detect early signs of stress in victims of atrocities and provide timely alerts to counsellors and authorities, ensuring real support before a crisis occurs.
 
 
-## 🚀 Live Prototype
-👉 [Click here to view the live project prototype]
+# SIH26094 - AI-Powered Dynamic Mental Health Monitoring and Distress Prediction System
+
+AI-Powered Dynamic Mental Health Monitoring and Distress Prediction System for Victims of Atrocities.
+
+## 📌 Problem Statement Details 
+
+- Problem ID: SIH26094
+- Project Title: AI-Powered Dynamic Mental Health Monitoring and Distress Prediction System for Victims of Atrocities
+- Sponsoring Ministry: Ministry of Social Justice and Empowerment (MoSJE)
+- Department: Department of Social Justice and Empowerment
+- Category: Software
+- Theme: MedTech / HealthTech
+
+## 🚀 Live Demo Link
+
+[Click here to view the live project prototype]
 
 (https://sahaaya.base44.app/login)
 
-
-
 ## 📖 About The Project
-Victims of atrocities often face intense psychological trauma, PTSD, and acute emotional distress, where timely intervention is critical. **Sahaaya** is built to bridge this gap. It acts as a proactive digital companion that monitors mental well-being securely, detects stress patterns at an early stage, and bridges communication with professional counsellors and authorities for immediate assistance.
 
+Victims of atrocities often face heavy emotional stress and trauma. **Sahaaya** is a smart, safe, and multilingual app designed to check on their mental health regularly. It catches early signs of stress and instantly connects them with counsellors and support teams before things get serious.
 
 ## ✨ Key Features
- 
-**Multilingual Support:** Accessible in multiple languages to support diverse users comfortably and break language barriers.
- 
-**Privacy-First Architecture:** Ensuring strict confidentiality, encryption, and security for sensitive health and personal data.
 
-**Early Stress Detection:** AI-driven indicators to spot psychological distress and behavioural changes early on.
+- Multilingual Chat Support: Understands local languages to catch stress signs from daily text check-ins.
+- Easy Video Health Checks: Safely checks basic physical stress signs using the camera without storing private data.
+- Voice Stress Detector: Listens to voice notes to detect emotional tiredness and heavy breathing patterns.
+- Smart Alert System: Automatically sends secure alerts to authorities if high risk is detected.
+- Complete Privacy: Keeps user data fully encrypted and secure.
+- Clear Reports for Doctors: Gives simple reason cards to doctors so they know why an alert was sent.
 
- **Timely Alerts System:** Automated escalation and alerting mechanism for registered counsellors and authorities.
+## 💻 Technologies We Used
 
-**Proactive Crisis Prevention:** Designed to deliver real-world support *before* a critical crisis hits.
+- Mobile App: Flutter (Works smoothly on Android and offline)
+- Web Dashboard: React, Tailwind CSS, TypeScript
+- Backend: FastAPI (Python) / Firebase
+- Database: PostgreSQL and secure local storage
+- AI & ML Models: IndicBERT, Whisper, MediaPipe, Random Forest, XGBoost
+- Notifications: Firebase Cloud Messaging / SMS
 
+## 📂 Folder Structure
 
-## 👥 Target Users & Beneficiaries
-**Victims of Atrocities:** Individuals in need of safe, accessible, and non-judgmental mental health tracking.
+- sahaaya-project/
+  - mobile/ (Android app screens and logic)
+  - web/ (Admin and doctor dashboard pages)
+  - backend/ (Server and api endpoints)
+  - ai-models/ (Speech, text, and camera AI tools)
+  - README.md
 
-**Counsellors & Mental Health Professionals:** To receive early distress warnings and intervene proactively.
+## 🔄 How It Works
 
- **Support Authorities & Organizations:** For structured emergency response management.
+1. User Input: Users share text, voice notes, or do quick check-ins through the mobile app.
+2. Smart Processing: The system runs checks locally and securely on the cloud to look for stress signs.
+3. Risk Score Check: AI models check the data and calculate if the user needs help.
+4. Quick Help Sent: If stress is high, trusted helpers and authorities get an instant alert with clear details.
 
+## ⚙️ How to Run Locally
 
-## 💻 Tech Stack & Architecture
+1. Clone this repository:
+   git clone https://github.com/your-username/SIH26094-AI-Powered-Dynamic-Mental-Health-Monitoring-and-Distress-Prediction-System.git
 
-**Mobile App: Flutter (Android-first, offline-friendly)
+2. Start the backend server:
+   cd backend
+   python -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   uvicorn main:app --reload
 
-**Web & Dashboards: React, TypeScript, Tailwind CSS, Recharts
+3. Start the web dashboard:
+   cd ../web
+   npm install
+   npm run dev
 
-**Backend:FastAPI (Python) / Firebase / Supabase
+## 🔮 Future Plans
 
-**Database: PostgreSQL + encrypted local cache / SQLite
-
-**NLP & Multilingual: IndicBERT / MuRIL / Multilingual BERT
-
-**Speech Processing: Whisper / Vosk + wav2vec2 + librosa
-
-**Physiological Prototype: MediaPipe / OpenCV + pyVHR / rPPG module
-
-**Risk & Distress Model:Rule engine + Random Forest / XGBoost
-
-**Alerts System: Firebase Cloud Messaging / SMS / Email integration
-
-**Explainability: Feature-contribution cards / SHAP-style view
-
-
-
-
-
-## 🔮 Future Scope
-* Integration of real-time voice emotion analysis.
-* Advanced predictive analytics dashboards for professional counsellors.
-* Secure multi-channel notification systems (SMS, encrypted push notifications).
+- Connect directly with national emergency help numbers for fast physical rescue.
+- Add support for smartwatches to track heart rate and continuous stress.
+- Expand language support to cover all major regional languages.
 
